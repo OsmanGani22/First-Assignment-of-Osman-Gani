@@ -2,3 +2,19 @@
     background-color: cadetblue;
     display:flex
 }
+.vision{
+    
+    background-color: antiquewhite;
+}
+.components{
+    display: flex;
+}
+.digital{
+    background-color: aqua;
+}
+.green{
+background-color: aquamarine;
+}
+.modern{
+    background-color: burlywood;
+}
