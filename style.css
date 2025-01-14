@@ -2,12 +2,19 @@ body{
     background-color: #d5d5d575;
     padding-left: 140px;
     padding-right: 140px;
+    padding-bottom: 20px;
 }
 
 
 .banner{
+    padding: 32px;
+    display: flex;
+    flex-direction: row;
+    gap: 12;
     background-color: #C6E4D6; 
-    display:flex
+    
+    border-radius: 10px;
+    
 }
 .vision{
     
@@ -62,4 +69,33 @@ gap: 20px;
 #news2{
 
     flex-direction: row-reverse;
+}
+.amount{
+    display: flex;
+    gap: 40px;
+   
+    }
+.donate{
+    background-color: white; 
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    
+   
+    
+}
+.quote{
+    background-color: wheat;
+    border-radius: 15px;
+    gap: 10px;
+    padding: 20px;
+
+}
+.newsletter{
+    background-color: #C6E4D6;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+
 }
